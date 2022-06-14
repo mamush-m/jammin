@@ -1,0 +1,234 @@
+* {
+  /* border: 3px solid green; */
+  box-sizing: border-box;
+  margin: 0 0;
+  font-family: var(--mainFont);
+}
+
+:root {
+  --mainFont: 'Oswald', sans-serif;
+  --cursiveFont: 'Oswald', sans-serif;
+  --secondCursiveFont: 'Sacramento', cursive;
+
+}
+
+.searchBar {
+  padding-top: 30px;
+
+}
+
+.searchBar h3 {
+  color: wheat;
+  text-align: center;
+  font-size: 40px;
+}
+
+.searchBar .searchButton {
+  color: white;
+  background-color: rgb(0, 195, 130);
+  width: 100px;
+  font-size: 15px;
+  border-radius: 20px;
+  height: 30px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box {
+  border: thick double rgb(178, 222, 113);
+  width: 10em;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.child {
+  background-color: aquamarine;
+  height: 2000px;
+  margin-bottom: 0px;
+  border-radius: 25px;
+}
+
+ul {
+  background-color: rgb(61, 61, 61);
+  height: 1700px;
+  width: 350px;
+  margin: 0px 100px;
+  border-radius: 5px;
+}
+
+ul li {
+  margin: 10px 10px;
+  padding: 10px 0px;
+  color: aquamarine;
+  list-style: none;
+}
+
+ul li p {
+  color: rgb(252, 133, 133);
+  margin: 0 0;
+  display: inline;
+  font-size: 20px;
+}
+
+ul p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  box-shadow: 3px -3px 8px 5px red;
+}
+
+ul h5 {
+  color: lightgray;
+  display: inline;
+  margin: 10px 10px;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#playlist-creator {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+}
+
+.playlist {
+  background-color: rgb(176, 0, 0);
+  border-radius: 20px;
+  height: 2000px;
+}
+
+#playlist-creator h3 {
+  color: rgb(255, 207, 207);
+  margin-top: 10px;
+}
+
+#playlist-title {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+#message {
+  color: darkgreen;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.container h3 {
+  font-size: 2em;
+  font-family: var(--mainFont);
+}
+
+.container {
+  margin-top: 100px;
+}
+
+#playlistCon {
+  height: 2000px;
+  border-radius: 25px;
+}
+
+html {
+background-image: linear-gradient(hsla(0, 65%, 95%, 0.29), hsla(200, 100%, 50%, 0.3)), url('../../../public/galaxy\ music.jpg');
+}
+
+.superParent h1 {
+  color: beige;
+  font-family: var(--secondCursiveFont);
+  text-align: center;
+  font-size: 70px;
+  text-shadow: aquamarine 3px 5px 20px
+}
+
+
+.instructions {
+  color: skyblue;
+  background-color: hsla(0, 0%, 0%, .4);
+  text-align: center;
+  /* border: 3px solid gold; */
+  margin: 30px auto;
+}
+
+.instructions h2 {
+  font-size: 2em;
+  letter-spacing: .2rem;
+}
+
+.instructions p {
+  font-size: 20px;
+  /* text-align: left; */
+  font-family: var(--mainFont);
+  font-weight: 300;
+  margin: 10px 0px;
+}
+
+.instructions h4 {
+  display: inline;
+}
+
+
+@media only screen and (max-width: 800px) {
+  #mains {
+    /* border: 3px solid green; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .child {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul {
+    height: 30rem;
+    overflow: scroll;
+    margin-bottom: 10px;
+    width: 85%;
+  }
+
+  #searchresultsCon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .playlist {
+    width: 70%;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
+
+  #playlistCon {
+    display: flex;
+    justify-content: center;
+  }
+
+  #playlist-creator {
+    flex-direction: column;
+  }
+
+  .instructions {
+    display: flex;
+    flex-direction: column;
+  }
+}

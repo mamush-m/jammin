@@ -1,0 +1,65 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 90vh;
+}
+
+.child {
+    background-color: rgb(50, 50, 50);
+    height: 600px;
+    width: 40%;
+}
+
+.child > * {
+    color: rgb(228, 160, 228);
+    background-color: inherit;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+li {
+    background-color: inherit;
+    margin: 10px 0px;
+    text-align: left;
+    list-style: none;
+    color: rgb(255, 164, 164);
+}
+
+
+li p {
+    color: red;
+    display: inline;
+    background-color: inherit;
+    font-size: 20px;
+}
+
+li p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+li p:active {
+    box-shadow: 3px 3px 3px aqua;
+    text-decoration: none;
+    transform: rotateX(30);
+}
+
+.song h5 {
+    font-weight: 350;
+    color: antiquewhite;
+    display: inline;
+    margin-left: 5px;
+    margin-right: 15px;
+    font-style: italic;
+} */
